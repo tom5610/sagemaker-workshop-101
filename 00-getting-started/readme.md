@@ -2,6 +2,7 @@
 
 You have been provisioned a temporary dedicated AWS account for the purposes of today's workshop. You will have been sent your access details beforehand - A 12-character code (or ‘hash’) that grants you the access to the AWS enviornment.
 
+
 ## 1. Login to the Event Engine 
 
 -  Go to https://dashboard.eventengine.run/, enter the access code and click Proceed: 
@@ -16,19 +17,12 @@ You have been provisioned a temporary dedicated AWS account for the purposes of 
 
 ![AWS Console 2](images/03.png)
 
-## 2. Confirm SageMaker permissions 
 
-- Open Amazon SageMaker service
+## 2. Enable SageMaker Extension Manager in Amazon SageMaker Studio
+
+- Select Amazon SageMaker service
 
 ![SageMaker Console 1](images/04.png)
-
--  Click "Edit" and then "Submit" - this is to confirm the permissions granted to the SageMaker environment
-
-![SageMaker Console 2](images/05.png)
-- 
-![SageMaker Console 3](images/06.png)
-
-## 3. Enable SageMaker Extension Manager
 
 - Open SageMaker Studio
 
