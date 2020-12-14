@@ -44,14 +44,19 @@ FROM
 ## Validate inference in AWS Lambda
 * Open AWS Lambda Console
 ![Lambda Console](images/07.png)
-
-* Click "Test" to configure Lambda test inputs
-![Lambda Console](images/08.png)
+![Lambda Console](images/07-1.png)
 
 * Click "Test" to configure Lambda test inputs
 ![Lambda Console](images/08.png)
 
 * Copy paste the test input - values identical to Athena test
+```json
+{
+  "durationMinutes": 32,
+  "tripDistance": 17.39,
+  "hourOfDay": 20
+}
+```
 ![Lambda Console](images/09.png)
 
 * Save and run the test
