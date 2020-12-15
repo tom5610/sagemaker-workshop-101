@@ -60,6 +60,8 @@ git clone https://github.com/tom5610/sagemaker-workshop-101.git
  You'll be asked to select a kernel when you first open each notebook. 
  
  - Use **Python 3 (Data Science)** as standard 
- - Use **Python 3 (TensorFlow CPU Optimized)** for the 'local' notebooks in NLP and migration challenge folders - they will fit the TensorFlow models within the notebook itself.
+ - Use **Python 3 (TensorFlow 2.3 Python 3.7 CPU Optimized)** for notebooks in:
+   - cusom_tensorflow_keras_nlp (demo)
+   - migration_challenge_keras_image
 
 You can refer to the [*"How Are Amazon SageMaker Studio Notebooks Different from Notebook Instances?"*](https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks-comparison.html) docs page for more details on differences between the Studio and Notebook Instance environments.

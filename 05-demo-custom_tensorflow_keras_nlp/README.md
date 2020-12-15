@@ -1,5 +1,9 @@
 # Classifying News Headlines with Keras
 
+## Select Kernel for Notebooks
+
+Please use Use **Python 3 (TensorFlow 2.3 Python 3.7 CPU Optimized)**.
+
 ## About The Dataset
 
 A dataset of references to news web pages collected from an online aggregator in the period from March 10 to August 10 of 2014. The resources are grouped into clusters that represent pages discussing the same news story. The dataset includes also references to web pages that point (has a link to) one of the news page in the collection.
