@@ -4,6 +4,9 @@ In this exercise, you'll migrate an [example notebook](Local%20Notebook.ipynb) (
 
 **To get started, clone this repository into a SageMaker Notebook instance (any instance type will do) and fire up the [Instructions.ipynb](Instructions.ipynb) notebook!**
 
+## Select Kernel for Notebooks
+
+Please use Use **Python 3 (TensorFlow 2.3 Python 3.7 CPU Optimized)**.
 
 ## Prerequisites
 
